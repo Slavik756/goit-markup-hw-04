@@ -200,10 +200,9 @@ border-radius: 2px;
 }
 
 
-.container-info {
+.div-social {
     padding: 32px 0;
 }
-
 .content-main {
     width: calc((100% - 72px) / 4);
 
@@ -251,6 +250,11 @@ border-radius: 2px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+.foto-list-icon {
+    display: flex;
+        gap: 24px;
+    justify-content: center;
 }
 
 .foto-list {
