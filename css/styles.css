@@ -226,6 +226,10 @@ border-radius: 2px;
 }
 .a-social:focus {
     background-color: #404bbf;
+   
+}
+.svg-social {
+    fill: #f4f4fd;
 }
 .content-main {
     width: calc((100% - 72px) / 4);
