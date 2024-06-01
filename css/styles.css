@@ -137,6 +137,7 @@ border-radius: 2px;
         background-size: cover;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
         max-width: 1440px;
+        margin: 0 auto;
 }
 
 
@@ -249,7 +250,7 @@ border-radius: 2px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: bold;
-
+    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -259,7 +260,7 @@ border-radius: 2px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
+    text-align: center;
     margin-bottom: 8px;
 }
 .social-list-item {
@@ -332,6 +333,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.portfolio-info:hover {
+    opacity: 1;
+} 
 .portfolio-list-title {
     font-weight: 500;
     font-size: 20px;
