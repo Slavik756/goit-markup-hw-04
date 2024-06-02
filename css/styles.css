@@ -98,7 +98,7 @@ img {
     position: relative;
 
 }
-.nav-link-after::after{
+.nav-link-studio:after {
 content: '';
  width: 100%;
 position: absolute;
@@ -108,11 +108,13 @@ position: absolute;
  color: #404bbf;
 border-radius: 2px;
 }
-.nav-link:hover {
+.nav-link-portfolio,
+.nav-link-contacts:hover {
     color: #404bbf;
 }
 
-.nav-link:focus {
+.nav-link-portfolio,
+.nav-link-contacts:focus {
     color: #404bbf;
 }
 
