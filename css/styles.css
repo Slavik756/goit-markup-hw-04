@@ -108,13 +108,13 @@ position: absolute;
  color: #2e2f42;
 border-radius: 2px;
 }
-.nav-link-portfolio,
-.nav-link-contacts:hover {
+.nav-link-portfolio:hover 
+.nav-link-contacts{
     color: #404bbf;
 }
 
-.nav-link-portfolio,
-.nav-link-contacts:focus {
+.nav-link-portfolio:focus
+.nav-link-contacts {
     color: #404bbf;
 }
 
