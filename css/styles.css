@@ -72,7 +72,7 @@ img {
     gap: 40px;
 }
 
-.nav-link-portfolio, .nav-link-contacts {
+.nav-ink {
     color: #2e2f42;
         font-size: 16px;
         font-weight: 500;
@@ -108,13 +108,11 @@ position: absolute;
  color: #404bbf;
 border-radius: 2px;
 }
-.nav-link-portfolio,
-.nav-link-contacts:hover {
+.nav-ink:focus {
     color: #404bbf;
 }
 
-.nav-link-portfolio,
-.nav-link-contacts:focus {
+.nav-ink:hover {
     color: #404bbf;
 }
 
